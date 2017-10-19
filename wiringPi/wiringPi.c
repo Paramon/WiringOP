@@ -1336,6 +1336,7 @@ int isA20(void)
 /*add for H3 guenter*/
 int isH5(void)
 {
+	return 1;
   FILE *cpuFd ;
   char line [120] ;
   char *d;
